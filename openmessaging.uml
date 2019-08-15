@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>io.openmessaging.rocketmq.MessagingAccessPointImpl</OriginalElement>
+  <nodes>
+    <node x="382.0" y="375.0">io.openmessaging.rocketmq.promise.DefaultPromise</node>
+    <node x="191.0" y="375.0">io.openmessaging.rocketmq.domain.SendResultImpl</node>
+    <node x="0.0" y="0.0">io.openmessaging.rocketmq.producer.AbstractOMSProducer</node>
+    <node x="212.0" y="227.0">io.openmessaging.rocketmq.consumer.PullConsumerImpl</node>
+    <node x="0.0" y="449.0">io.openmessaging.rocketmq.promise.FutureState</node>
+    <node x="0.0" y="153.0">io.openmessaging.rocketmq.MessagingAccessPointImpl</node>
+    <node x="24.5" y="79.0">io.openmessaging.rocketmq.producer.ProducerImpl</node>
+    <node x="236.5" y="79.0">io.openmessaging.rocketmq.config.ClientConfig</node>
+    <node x="205.0" y="301.0">io.openmessaging.rocketmq.domain.BytesMessageImpl</node>
+    <node x="170.0" y="449.0">io.openmessaging.rocketmq.utils.BeanUtils</node>
+    <node x="0.0" y="375.0">io.openmessaging.rocketmq.domain.ConsumeRequest</node>
+    <node x="0.0" y="227.0">io.openmessaging.rocketmq.domain.RocketMQConstants</node>
+    <node x="226.0" y="0.0">io.openmessaging.rocketmq.domain.NonStandardKeys</node>
+    <node x="326.0" y="449.0">io.openmessaging.rocketmq.utils.OMSUtil</node>
+    <node x="0.0" y="301.0">io.openmessaging.rocketmq.consumer.PushConsumerImpl</node>
+    <node x="261.0" y="153.0">io.openmessaging.rocketmq.consumer.LocalMessageCache</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="io.openmessaging.rocketmq.producer.ProducerImpl" target="io.openmessaging.rocketmq.producer.AbstractOMSProducer">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="io.openmessaging.rocketmq.config.ClientConfig" target="io.openmessaging.rocketmq.domain.NonStandardKeys">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="108.0" y="93.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

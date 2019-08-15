@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.logging.InnerLoggerFactory</OriginalElement>
+  <nodes>
+    <node x="270.0" y="449.0">org.apache.rocketmq.logging.inner.Level</node>
+    <node x="0.0" y="449.0">org.apache.rocketmq.logging.inner.Logger</node>
+    <node x="254.0" y="153.0">org.apache.rocketmq.logappender.log4j2.RocketmqLog4j2Appender</node>
+    <node x="135.0" y="449.0">org.apache.rocketmq.logging.inner.Layout</node>
+    <node x="191.0" y="301.0">org.apache.rocketmq.logging.inner.LoggingBuilder</node>
+    <node x="86.5" y="0.0">org.apache.rocketmq.logging.InternalLoggerFactory</node>
+    <node x="0.0" y="301.0">org.apache.rocketmq.logging.InternalLogger</node>
+    <node x="0.0" y="79.0">org.apache.rocketmq.logging.Slf4jLoggerFactory</node>
+    <node x="0.0" y="153.0">org.apache.rocketmq.logappender.logback.RocketmqLogbackAppender</node>
+    <node x="0.0" y="227.0">org.apache.rocketmq.logappender.log4j.RocketmqLog4jAppender</node>
+    <node x="240.0" y="227.0">org.apache.rocketmq.logappender.common.ProducerInstance</node>
+    <node x="177.0" y="375.0">org.apache.rocketmq.logging.inner.SysLogger</node>
+    <node x="333.0" y="375.0">org.apache.rocketmq.logging.inner.Appender</node>
+    <node x="0.0" y="375.0">org.apache.rocketmq.logging.inner.LoggingEvent</node>
+    <node x="194.0" y="79.0">org.apache.rocketmq.logging.InnerLoggerFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.rocketmq.logging.InnerLoggerFactory" target="org.apache.rocketmq.logging.InternalLoggerFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="281.0" y="54.0" />
+      <point x="232.75" y="54.0" />
+      <point x="48.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.logging.Slf4jLoggerFactory" target="org.apache.rocketmq.logging.InternalLoggerFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="87.0" y="54.0" />
+      <point x="135.25" y="54.0" />
+      <point x="-48.75" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="228.0" y="239.0" />
+  <SelectedNodes>
+    <node>org.apache.rocketmq.logging.InnerLoggerFactory</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.client.ClientConfig</OriginalElement>
+  <nodes>
+    <node x="0.0" y="1456.0">org.apache.rocketmq.client.consumer.MessageSelector</node>
+    <node x="778.0" y="1530.0">org.apache.rocketmq.client.producer.SendCallback</node>
+    <node x="955.0" y="1530.0">org.apache.rocketmq.client.impl.consumer.ProcessQueue</node>
+    <node x="226.77083333333331" y="79.0">org.apache.rocketmq.client.ClientConfig</node>
+    <node x="433.25" y="237.0">org.apache.rocketmq.client.consumer.DefaultMQPushConsumer</node>
+    <node x="688.0" y="933.0">org.apache.rocketmq.client.impl.producer.MQProducerInner</node>
+    <node x="0.0" y="1160.0">org.apache.rocketmq.client.producer.LocalTransactionState</node>
+    <node x="222.0" y="859.0">org.apache.rocketmq.client.consumer.listener.MessageListenerConcurrently</node>
+    <node x="571.0" y="1086.0">org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyStatus</node>
+    <node x="1446.0" y="400.0">org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueByConfig</node>
+    <node x="733.0" y="859.0">org.apache.rocketmq.client.consumer.store.LocalFileOffsetStore</node>
+    <node x="198.0" y="1456.0">org.apache.rocketmq.client.admin.MQAdminExtInner</node>
+    <node x="418.79166666666663" y="79.0">org.apache.rocketmq.client.consumer.MQConsumer</node>
+    <node x="542.0" y="400.0">org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueConsistentHash</node>
+    <node x="177.0" y="1604.0">org.apache.rocketmq.client.QueryResult</node>
+    <node x="165.25" y="627.0">org.apache.rocketmq.client.impl.consumer.ConsumeMessageService</node>
+    <node x="1074.0" y="1308.0">org.apache.rocketmq.client.impl.consumer.RebalanceService</node>
+    <node x="1132.0" y="1530.0">org.apache.rocketmq.client.log.ClientLogger</node>
+    <node x="438.0" y="1308.0">org.apache.rocketmq.client.impl.CommunicationMode</node>
+    <node x="650.0" y="1308.0">org.apache.rocketmq.client.hook.FilterMessageHook</node>
+    <node x="925.0" y="1234.0">org.apache.rocketmq.client.hook.CheckForbiddenHook</node>
+    <node x="252.79166666666663" y="0.0">org.apache.rocketmq.client.MQAdmin</node>
+    <node x="300.5" y="158.0">org.apache.rocketmq.client.consumer.MQPullConsumer</node>
+    <node x="667.0" y="1012.0">org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl</node>
+    <node x="499.5" y="158.0">org.apache.rocketmq.client.consumer.MQPushConsumer</node>
+    <node x="240.0" y="1160.0">org.apache.rocketmq.client.hook.CheckForbiddenContext</node>
+    <node x="288.5" y="474.0">org.apache.rocketmq.client.producer.MessageQueueSelector</node>
+    <node x="0.0" y="1382.0">org.apache.rocketmq.client.impl.factory.MQClientInstance</node>
+    <node x="1176.0" y="1604.0">org.apache.rocketmq.client.MQHelper</node>
+    <node x="721.25" y="311.0">org.apache.rocketmq.client.consumer.AllocateMessageQueueStrategy</node>
+    <node x="699.0" y="1234.0">org.apache.rocketmq.client.producer.TransactionListener</node>
+    <node x="347.0" y="1604.0">org.apache.rocketmq.client.impl.consumer.PullRequest</node>
+    <node x="0.0" y="1604.0">org.apache.rocketmq.client.consumer.PullCallback</node>
+    <node x="1157.5" y="933.0">org.apache.rocketmq.client.consumer.PullResult</node>
+    <node x="187.0" y="1012.0">org.apache.rocketmq.client.impl.consumer.RebalancePushImpl</node>
+    <node x="535.0" y="553.0">org.apache.rocketmq.client.producer.selector.SelectMessageQueueByHash</node>
+    <node x="960.0" y="1160.0">org.apache.rocketmq.client.stat.ConsumerStatsManager</node>
+    <node x="1093.0" y="1086.0">org.apache.rocketmq.client.consumer.store.OffsetSerializeWrapper</node>
+    <node x="1175.0" y="400.0">org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueAveragely</node>
+    <node x="1144.0" y="1234.0">org.apache.rocketmq.client.hook.ConsumeMessageHook</node>
+    <node x="107.5" y="933.0">org.apache.rocketmq.client.impl.consumer.RebalanceImpl</node>
+    <node x="264.0" y="706.0">org.apache.rocketmq.client.impl.consumer.ConsumeMessageConcurrentlyService</node>
+    <node x="517.0" y="1604.0">org.apache.rocketmq.client.impl.MQAdminImpl</node>
+    <node x="218.25" y="237.0">org.apache.rocketmq.client.consumer.DefaultMQPullConsumer</node>
+    <node x="0.0" y="1012.0">org.apache.rocketmq.client.impl.consumer.RebalancePullImpl</node>
+    <node x="3.25" y="237.0">org.apache.rocketmq.client.producer.TransactionMQProducer</node>
+    <node x="250.0" y="553.0">org.apache.rocketmq.client.producer.selector.SelectMessageQueueByMachineRoom</node>
+    <node x="831.0" y="706.0">org.apache.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl</node>
+    <node x="907.0" y="1012.0">org.apache.rocketmq.client.producer.TransactionSendResult</node>
+    <node x="205.0" y="1382.0">org.apache.rocketmq.client.common.ThreadLocalIndex</node>
+    <node x="0.0" y="1308.0">org.apache.rocketmq.client.impl.consumer.PullMessageService</node>
+    <node x="0.0" y="1234.0">org.apache.rocketmq.client.consumer.MessageQueueListener</node>
+    <node x="0.0" y="706.0">org.apache.rocketmq.client.impl.consumer.ConsumeMessageOrderlyService</node>
+    <node x="396.0" y="1530.0">org.apache.rocketmq.client.consumer.store.ReadOffsetType</node>
+    <node x="410.0" y="1382.0">org.apache.rocketmq.client.consumer.PullTaskCallback</node>
+    <node x="848.0" y="400.0">org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueAveragelyByCircle</node>
+    <node x="655.25" y="780.0">org.apache.rocketmq.client.consumer.store.OffsetStore</node>
+    <node x="1147.0" y="1012.0">org.apache.rocketmq.client.impl.consumer.PullResultExt</node>
+    <node x="839.0" y="1086.0">org.apache.rocketmq.client.impl.ClientRemotingProcessor</node>
+    <node x="615.0" y="1382.0">org.apache.rocketmq.client.impl.consumer.MessageQueueLock</node>
+    <node x="0.0" y="1086.0">org.apache.rocketmq.client.consumer.MQPullConsumerScheduleService</node>
+    <node x="0.0" y="553.0">org.apache.rocketmq.client.producer.selector.SelectMessageQueueByRandom</node>
+    <node x="480.0" y="1160.0">org.apache.rocketmq.client.hook.ConsumeMessageContext</node>
+    <node x="396.0" y="1456.0">org.apache.rocketmq.client.consumer.PullTaskContext</node>
+    <node x="862.0" y="1308.0">org.apache.rocketmq.client.consumer.listener.ConsumeReturnType</node>
+    <node x="0.0" y="79.0">org.apache.rocketmq.client.producer.MQProducer</node>
+    <node x="687.0" y="1604.0">org.apache.rocketmq.client.Validators</node>
+    <node x="594.0" y="1456.0">org.apache.rocketmq.client.impl.MQClientManager</node>
+    <node x="144.25" y="780.0">org.apache.rocketmq.client.consumer.listener.MessageListener</node>
+    <node x="945.5" y="933.0">org.apache.rocketmq.client.producer.SendResult</node>
+    <node x="720.0" y="1160.0">org.apache.rocketmq.client.consumer.listener.ConsumeOrderlyContext</node>
+    <node x="850.0" y="1604.0">org.apache.rocketmq.client.consumer.PullStatus</node>
+    <node x="588.0" y="706.0">org.apache.rocketmq.client.impl.consumer.DefaultMQPullConsumerImpl</node>
+    <node x="17.25" y="158.0">org.apache.rocketmq.client.producer.DefaultMQProducer</node>
+    <node x="296.0" y="1086.0">org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext</node>
+    <node x="792.0" y="1456.0">org.apache.rocketmq.client.impl.MQClientAPIImpl</node>
+    <node x="587.0" y="1530.0">org.apache.rocketmq.client.impl.consumer.PullAPIWrapper</node>
+    <node x="990.0" y="1456.0">org.apache.rocketmq.client.latency.MQFaultStrategy</node>
+    <node x="820.0" y="1382.0">org.apache.rocketmq.client.impl.FindBrokerResult</node>
+    <node x="0.0" y="1530.0">org.apache.rocketmq.client.common.ClientErrorCode</node>
+    <node x="243.0" y="400.0">org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueByMachineRoom</node>
+    <node x="413.0" y="933.0">org.apache.rocketmq.client.latency.LatencyFaultTolerance</node>
+    <node x="504.0" y="859.0">org.apache.rocketmq.client.consumer.store.RemoteBrokerOffsetStore</node>
+    <node x="219.0" y="1308.0">org.apache.rocketmq.client.hook.SendMessageContext</node>
+    <node x="0.0" y="400.0">org.apache.rocketmq.client.consumer.rebalance.AllocateMachineRoomNearby</node>
+    <node x="0.0" y="859.0">org.apache.rocketmq.client.consumer.listener.MessageListenerOrderly</node>
+    <node x="198.0" y="1530.0">org.apache.rocketmq.client.hook.SendMessageHook</node>
+    <node x="1025.0" y="1382.0">org.apache.rocketmq.client.impl.producer.TopicPublishInfo</node>
+    <node x="233.0" y="1234.0">org.apache.rocketmq.client.hook.FilterMessageContext</node>
+    <node x="1013.0" y="1604.0">org.apache.rocketmq.client.producer.SendStatus</node>
+    <node x="399.0" y="1012.0">org.apache.rocketmq.client.latency.LatencyFaultToleranceImpl</node>
+    <node x="466.0" y="1234.0">org.apache.rocketmq.client.consumer.listener.ConsumeOrderlyStatus</node>
+    <node x="744.5" y="627.0">org.apache.rocketmq.client.impl.consumer.MQConsumerInner</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.rocketmq.client.impl.consumer.PullResultExt" target="org.apache.rocketmq.client.consumer.PullResult">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.latency.LatencyFaultToleranceImpl" target="org.apache.rocketmq.client.latency.LatencyFaultTolerance">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.DefaultMQPushConsumer" target="org.apache.rocketmq.client.ClientConfig">
+      <point x="-48.75" y="-14.5" />
+      <point x="482.0" y="212.0" />
+      <point x="489.0" y="212.0" />
+      <point x="489.0" y="128.0" />
+      <point x="336.7708333333333" y="128.0" />
+      <point x="44.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.MQPullConsumer" target="org.apache.rocketmq.client.consumer.MQConsumer">
+      <point x="0.0" y="-14.5" />
+      <point x="373.5" y="138.0" />
+      <point x="448.29166666666663" y="138.0" />
+      <point x="-29.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.producer.selector.SelectMessageQueueByHash" target="org.apache.rocketmq.client.producer.MessageQueueSelector">
+      <point x="0.0" y="-14.5" />
+      <point x="643.0" y="528.0" />
+      <point x="445.16666666666663" y="528.0" />
+      <point x="62.66666666666663" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl" target="org.apache.rocketmq.client.impl.producer.MQProducerInner">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.impl.consumer.ConsumeMessageOrderlyService" target="org.apache.rocketmq.client.impl.consumer.ConsumeMessageService">
+      <point x="0.0" y="-14.5" />
+      <point x="122.0" y="681.0" />
+      <point x="214.0" y="681.0" />
+      <point x="-48.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.store.LocalFileOffsetStore" target="org.apache.rocketmq.client.consumer.store.OffsetStore">
+      <point x="0.0" y="-14.5" />
+      <point x="827.0" y="834.0" />
+      <point x="749.0" y="834.0" />
+      <point x="31.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.rebalance.AllocateMachineRoomNearby" target="org.apache.rocketmq.client.consumer.AllocateMessageQueueStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="111.5" y="360.0" />
+      <point x="741.5833333333334" y="360.0" />
+      <point x="-101.66666666666663" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.MQConsumer" target="org.apache.rocketmq.client.MQAdmin">
+      <point x="0.0" y="-14.5" />
+      <point x="477.79166666666663" y="54.0" />
+      <point x="325.54166666666663" y="54.0" />
+      <point x="24.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.producer.selector.SelectMessageQueueByMachineRoom" target="org.apache.rocketmq.client.producer.MessageQueueSelector">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.impl.consumer.RebalancePullImpl" target="org.apache.rocketmq.client.impl.consumer.RebalanceImpl">
+      <point x="0.0" y="-14.5" />
+      <point x="83.5" y="987.0" />
+      <point x="142.25" y="987.0" />
+      <point x="-34.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.MQPushConsumer" target="org.apache.rocketmq.client.consumer.MQConsumer">
+      <point x="0.0" y="-14.5" />
+      <point x="572.5" y="138.0" />
+      <point x="507.29166666666663" y="138.0" />
+      <point x="29.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.impl.consumer.DefaultMQPushConsumerImpl" target="org.apache.rocketmq.client.impl.consumer.MQConsumerInner">
+      <point x="0.0" y="-14.5" />
+      <point x="942.5" y="681.0" />
+      <point x="859.25" y="681.0" />
+      <point x="38.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.DefaultMQPushConsumer" target="org.apache.rocketmq.client.consumer.MQPushConsumer">
+      <point x="48.75" y="-14.5" />
+      <point x="579.5" y="212.0" />
+      <point x="572.5" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.impl.consumer.ConsumeMessageConcurrentlyService" target="org.apache.rocketmq.client.impl.consumer.ConsumeMessageService">
+      <point x="0.0" y="-14.5" />
+      <point x="403.5" y="681.0" />
+      <point x="311.5" y="681.0" />
+      <point x="48.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.producer.MQProducer" target="org.apache.rocketmq.client.MQAdmin">
+      <point x="0.0" y="-14.5" />
+      <point x="59.0" y="54.0" />
+      <point x="277.04166666666663" y="54.0" />
+      <point x="-24.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.producer.TransactionMQProducer" target="org.apache.rocketmq.client.producer.DefaultMQProducer">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.producer.selector.SelectMessageQueueByRandom" target="org.apache.rocketmq.client.producer.MessageQueueSelector">
+      <point x="0.0" y="-14.5" />
+      <point x="115.0" y="528.0" />
+      <point x="319.8333333333333" y="528.0" />
+      <point x="-62.666666666666686" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.store.RemoteBrokerOffsetStore" target="org.apache.rocketmq.client.consumer.store.OffsetStore">
+      <point x="0.0" y="-14.5" />
+      <point x="608.5" y="834.0" />
+      <point x="686.5" y="834.0" />
+      <point x="-31.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.impl.consumer.DefaultMQPullConsumerImpl" target="org.apache.rocketmq.client.impl.consumer.MQConsumerInner">
+      <point x="0.0" y="-14.5" />
+      <point x="699.5" y="681.0" />
+      <point x="782.75" y="681.0" />
+      <point x="-38.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.impl.consumer.RebalancePushImpl" target="org.apache.rocketmq.client.impl.consumer.RebalanceImpl">
+      <point x="0.0" y="-14.5" />
+      <point x="270.5" y="987.0" />
+      <point x="211.75" y="987.0" />
+      <point x="34.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.producer.TransactionSendResult" target="org.apache.rocketmq.client.producer.SendResult">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueAveragely" target="org.apache.rocketmq.client.consumer.AllocateMessageQueueStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="1300.5" y="370.0" />
+      <point x="904.25" y="370.0" />
+      <point x="61.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.DefaultMQPullConsumer" target="org.apache.rocketmq.client.consumer.MQPullConsumer">
+      <point x="48.75" y="-14.5" />
+      <point x="364.5" y="212.0" />
+      <point x="373.5" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueByConfig" target="org.apache.rocketmq.client.consumer.AllocateMessageQueueStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="1568.0" y="360.0" />
+      <point x="944.9166666666666" y="360.0" />
+      <point x="101.66666666666663" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.listener.MessageListenerOrderly" target="org.apache.rocketmq.client.consumer.listener.MessageListener">
+      <point x="0.0" y="-14.5" />
+      <point x="101.0" y="834.0" />
+      <point x="182.5" y="834.0" />
+      <point x="-38.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.producer.DefaultMQProducer" target="org.apache.rocketmq.client.ClientConfig">
+      <point x="41.75" y="-14.5" />
+      <point x="142.5" y="138.0" />
+      <point x="248.77083333333331" y="138.0" />
+      <point x="-44.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.DefaultMQPullConsumer" target="org.apache.rocketmq.client.ClientConfig">
+      <point x="-48.75" y="-14.5" />
+      <point x="267.0" y="212.0" />
+      <point x="274.0" y="212.0" />
+      <point x="274.0" y="138.0" />
+      <point x="292.7708333333333" y="138.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.listener.MessageListenerConcurrently" target="org.apache.rocketmq.client.consumer.listener.MessageListener">
+      <point x="0.0" y="-14.5" />
+      <point x="340.5" y="834.0" />
+      <point x="259.0" y="834.0" />
+      <point x="38.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.producer.DefaultMQProducer" target="org.apache.rocketmq.client.producer.MQProducer">
+      <point x="-41.75" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueAveragelyByCircle" target="org.apache.rocketmq.client.consumer.AllocateMessageQueueStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="1001.5" y="380.0" />
+      <point x="863.5833333333334" y="380.0" />
+      <point x="20.33333333333337" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueConsistentHash" target="org.apache.rocketmq.client.consumer.AllocateMessageQueueStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="685.0" y="380.0" />
+      <point x="822.9166666666666" y="380.0" />
+      <point x="-20.33333333333337" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueByMachineRoom" target="org.apache.rocketmq.client.consumer.AllocateMessageQueueStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="382.5" y="370.0" />
+      <point x="782.25" y="370.0" />
+      <point x="-61.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="575.0" y="1106.5" />
+  <SelectedNodes>
+    <node>org.apache.rocketmq.client.consumer.MQPullConsumerScheduleService</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

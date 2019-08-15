@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.common.BrokerConfig</OriginalElement>
+  <nodes>
+    <node x="382.0" y="1490.0">org.apache.rocketmq.common.ServiceThread</node>
+    <node x="566.0" y="1490.0">org.apache.rocketmq.common.filter.MessageFilter</node>
+    <node x="310.0" y="602.0">org.apache.rocketmq.common.protocol.header.GetConsumerStatusRequestHeader</node>
+    <node x="852.0" y="1860.0">org.apache.rocketmq.common.filter.impl.Type</node>
+    <node x="1300.0" y="1268.0">org.apache.rocketmq.common.protocol.body.ConsumeQueueData</node>
+    <node x="303.0" y="676.0">org.apache.rocketmq.common.protocol.header.namesrv.UnRegisterBrokerRequestHeader</node>
+    <node x="1505.0" y="1268.0">org.apache.rocketmq.common.protocol.body.ProcessQueueInfo</node>
+    <node x="0.0" y="1268.0">org.apache.rocketmq.common.protocol.body.RegisterBrokerBody</node>
+    <node x="1606.25" y="0.0">org.apache.rocketmq.common.protocol.header.GetConsumerConnectionListRequestHeader</node>
+    <node x="815.0" y="1786.0">org.apache.rocketmq.common.protocol.body.TopicList</node>
+    <node x="599.0" y="676.0">org.apache.rocketmq.common.protocol.header.UnregisterClientRequestHeader</node>
+    <node x="345.0" y="306.0">org.apache.rocketmq.common.protocol.header.GetConsumerListByGroupRequestHeader</node>
+    <node x="920.0" y="1564.0">org.apache.rocketmq.common.consistenthash.HashFunction</node>
+    <node x="1097.0" y="1564.0">org.apache.rocketmq.common.running.RunningStats</node>
+    <node x="1710.0" y="1268.0">org.apache.rocketmq.common.protocol.topic.OffsetMovedEvent</node>
+    <node x="480.0" y="1194.0">org.apache.rocketmq.common.protocol.body.LockBatchRequestBody</node>
+    <node x="0.0" y="1342.0">org.apache.rocketmq.common.protocol.heartbeat.SubscriptionData</node>
+    <node x="1270.0" y="1120.0">org.apache.rocketmq.common.BrokerConfigSingleton</node>
+    <node x="1410.0" y="824.0">org.apache.rocketmq.common.protocol.header.SendMessageRequestHeaderV2</node>
+    <node x="750.0" y="1490.0">org.apache.rocketmq.common.ConfigManager</node>
+    <node x="0.0" y="1786.0">org.apache.rocketmq.common.protocol.route.BrokerData</node>
+    <node x="1608.0" y="972.0">org.apache.rocketmq.common.protocol.header.SendMessageRequestHeader</node>
+    <node x="219.0" y="1268.0">org.apache.rocketmq.common.protocol.body.ConsumerConnection</node>
+    <node x="205.0" y="1342.0">org.apache.rocketmq.common.consumer.ConsumeFromWhere</node>
+    <node x="825.0" y="898.0">org.apache.rocketmq.common.protocol.header.SendMessageResponseHeader</node>
+    <node x="613.0" y="602.0">org.apache.rocketmq.common.protocol.header.QueryConsumeQueueRequestHeader</node>
+    <node x="0.0" y="1046.0">org.apache.rocketmq.common.protocol.header.namesrv.GetKVConfigRequestHeader</node>
+    <node x="820.0" y="1342.0">org.apache.rocketmq.common.TopicFilterType</node>
+    <node x="776.0" y="1120.0">org.apache.rocketmq.common.protocol.body.UnlockBatchRequestBody</node>
+    <node x="1593.0" y="1638.0">org.apache.rocketmq.common.admin.TopicOffset</node>
+    <node x="916.0" y="602.0">org.apache.rocketmq.common.protocol.header.namesrv.QueryDataVersionResponseHeader</node>
+    <node x="548.25" y="79.0">org.apache.rocketmq.common.filter.impl.Operand</node>
+    <node x="1274.0" y="1564.0">org.apache.rocketmq.common.protocol.heartbeat.ProducerData</node>
+    <node x="971.0" y="1786.0">org.apache.rocketmq.common.protocol.body.GroupList</node>
+    <node x="934.0" y="1490.0">org.apache.rocketmq.common.admin.OffsetWrapper</node>
+    <node x="1219.0" y="602.0">org.apache.rocketmq.common.protocol.header.UnregisterClientResponseHeader</node>
+    <node x="163.0" y="1786.0">org.apache.rocketmq.common.constant.LoggerName</node>
+    <node x="1685.0" y="824.0">org.apache.rocketmq.common.protocol.header.QueryMessageResponseHeader</node>
+    <node x="324.0" y="528.0">org.apache.rocketmq.common.protocol.header.QueryConsumerOffsetRequestHeader</node>
+    <node x="1018.0" y="1342.0">org.apache.rocketmq.common.stats.MomentStatsItem</node>
+    <node x="1763.0" y="1638.0">org.apache.rocketmq.common.protocol.RequestCode</node>
+    <node x="792.0" y="1416.0">org.apache.rocketmq.common.message.MessageDecoder</node>
+    <node x="1118.0" y="1490.0">org.apache.rocketmq.common.protocol.body.ConsumeStatus</node>
+    <node x="0.0" y="1712.0">org.apache.rocketmq.common.TopicConfig</node>
+    <node x="1451.0" y="1564.0">org.apache.rocketmq.common.message.MessageConst</node>
+    <node x="438.0" y="1268.0">org.apache.rocketmq.common.stats.MomentStatsItemSet</node>
+    <node x="338.0" y="380.0">org.apache.rocketmq.common.protocol.header.GetConsumerListByGroupResponseBody</node>
+    <node x="1302.0" y="1490.0">org.apache.rocketmq.common.protocol.body.QueueTimeSpan</node>
+    <node x="1522.0" y="602.0">org.apache.rocketmq.common.protocol.header.GetTopicStatsInfoRequestHeader</node>
+    <node x="180.0" y="158.0">org.apache.rocketmq.common.message.MessageExtBatch</node>
+    <node x="0.0" y="824.0">org.apache.rocketmq.common.protocol.header.namesrv.DeleteKVConfigRequestHeader</node>
+    <node x="1486.0" y="1490.0">org.apache.rocketmq.common.stats.StatsSnapshot</node>
+    <node x="1179.0" y="1194.0">org.apache.rocketmq.common.protocol.body.ResetOffsetBodyForC</node>
+    <node x="1510.0" y="1120.0">org.apache.rocketmq.common.message.MessageClientIDSetter</node>
+    <node x="669.0" y="380.0">org.apache.rocketmq.common.protocol.header.CheckTransactionStateRequestHeader</node>
+    <node x="1628.0" y="1564.0">org.apache.rocketmq.common.message.MessageQueue</node>
+    <node x="1127.0" y="1786.0">org.apache.rocketmq.common.message.MessageId</node>
+    <node x="261.0" y="1046.0">org.apache.rocketmq.common.protocol.header.namesrv.PutKVConfigRequestHeader</node>
+    <node x="1216.0" y="1342.0">org.apache.rocketmq.common.protocol.body.BrokerStatsItem</node>
+    <node x="1093.0" y="898.0">org.apache.rocketmq.common.protocol.header.GetMinOffsetRequestHeader</node>
+    <node x="170.0" y="1712.0">org.apache.rocketmq.common.utils.ChannelUtil</node>
+    <node x="683.0" y="306.0">org.apache.rocketmq.common.protocol.header.QueryTopicConsumeByWhoRequestHeader</node>
+    <node x="1275.0" y="528.0">org.apache.rocketmq.common.protocol.header.GetTopicsByClusterRequestHeader</node>
+    <node x="0.0" y="232.0">org.apache.rocketmq.common.protocol.header.GetProducerConnectionListRequestHeader</node>
+    <node x="1283.0" y="1786.0">org.apache.rocketmq.common.protocol.route.QueueData</node>
+    <node x="1805.0" y="1564.0">org.apache.rocketmq.common.protocol.ResponseCode</node>
+    <node x="0.0" y="676.0">org.apache.rocketmq.common.protocol.body.ConsumerOffsetSerializeWrapper</node>
+    <node x="592.0" y="750.0">org.apache.rocketmq.common.protocol.header.EndTransactionResponseHeader</node>
+    <node x="424.25" y="79.0">org.apache.rocketmq.common.filter.impl.Operator</node>
+    <node x="522.0" y="1046.0">org.apache.rocketmq.common.protocol.body.QueryConsumeTimeSpanBody</node>
+    <node x="505.5" y="0.0">org.apache.rocketmq.common.filter.impl.Op</node>
+    <node x="1361.0" y="898.0">org.apache.rocketmq.common.protocol.header.PullMessageResponseHeader</node>
+    <node x="410.0" y="1342.0">org.apache.rocketmq.common.protocol.body.ConsumeStatsList</node>
+    <node x="1021.0" y="306.0">org.apache.rocketmq.common.protocol.header.CheckTransactionStateResponseHeader</node>
+    <node x="1439.0" y="1786.0">org.apache.rocketmq.common.filter.FilterAPI</node>
+    <node x="331.0" y="454.0">org.apache.rocketmq.common.protocol.header.namesrv.DeleteTopicInNamesrvRequestHeader</node>
+    <node x="783.0" y="1046.0">org.apache.rocketmq.common.protocol.header.ResetOffsetRequestHeader</node>
+    <node x="1629.0" y="898.0">org.apache.rocketmq.common.protocol.header.QueryMessageRequestHeader</node>
+    <node x="298.0" y="1860.0">org.apache.rocketmq.common.UtilAll</node>
+    <node x="359.0" y="232.0">org.apache.rocketmq.common.protocol.header.GetEarliestMsgStoretimeResponseHeader</node>
+    <node x="326.0" y="1786.0">org.apache.rocketmq.common.filter.impl.PolishExpr</node>
+    <node x="1044.0" y="1046.0">org.apache.rocketmq.common.protocol.header.PullMessageRequestHeader</node>
+    <node x="1305.0" y="1046.0">org.apache.rocketmq.common.protocol.header.ViewMessageRequestHeader</node>
+    <node x="340.0" y="1712.0">org.apache.rocketmq.common.SystemClock</node>
+    <node x="0.0" y="972.0">org.apache.rocketmq.common.protocol.header.ViewMessageResponseHeader</node>
+    <node x="1414.0" y="1342.0">org.apache.rocketmq.common.protocol.body.ResetOffsetBody</node>
+    <node x="0.0" y="1638.0">org.apache.rocketmq.common.protocol.body.ConsumeByWho</node>
+    <node x="1023.0" y="1120.0">org.apache.rocketmq.common.protocol.body.CheckClientRequestBody</node>
+    <node x="1566.0" y="1046.0">org.apache.rocketmq.common.protocol.header.CreateTopicRequestHeader</node>
+    <node x="1612.0" y="1342.0">org.apache.rocketmq.common.admin.TopicStatsTable</node>
+    <node x="895.0" y="676.0">org.apache.rocketmq.common.protocol.header.GetBrokerConfigResponseHeader</node>
+    <node x="0.0" y="158.0">org.apache.rocketmq.common.message.MessageClientExt</node>
+    <node x="641.0" y="528.0">org.apache.rocketmq.common.protocol.header.ViewBrokerStatsDataRequestHeader</node>
+    <node x="0.0" y="1416.0">org.apache.rocketmq.common.hook.FilterCheckHook</node>
+    <node x="1670.0" y="1490.0">org.apache.rocketmq.common.filter.FilterContext</node>
+    <node x="1359.0" y="306.0">org.apache.rocketmq.common.protocol.header.namesrv.WipeWritePermOfBrokerResponseHeader</node>
+    <node x="510.0" y="1712.0">org.apache.rocketmq.common.protocol.body.ClusterInfo</node>
+    <node x="1405.0" y="1194.0">org.apache.rocketmq.common.sysflag.SubscriptionSysFlag</node>
+    <node x="1595.0" y="1786.0">org.apache.rocketmq.common.stats.StatsItem</node>
+    <node x="198.0" y="1416.0">org.apache.rocketmq.common.message.MessageAccessor</node>
+    <node x="282.0" y="824.0">org.apache.rocketmq.common.protocol.body.TopicConfigSerializeWrapper</node>
+    <node x="983.0" y="1416.0">org.apache.rocketmq.common.utils.HttpTinyClient</node>
+    <node x="1191.0" y="676.0">org.apache.rocketmq.common.protocol.header.namesrv.QueryDataVersionRequestHeader</node>
+    <node x="860.25" y="0.0">org.apache.rocketmq.common.protocol.header.ConsumeMessageDirectlyResultRequestHeader</node>
+    <node x="177.0" y="1638.0">org.apache.rocketmq.common.protocol.heartbeat.ConsumerData</node>
+    <node x="192.25" y="0.0">org.apache.rocketmq.common.message.Message</node>
+    <node x="680.0" y="1712.0">org.apache.rocketmq.common.namesrv.NamesrvUtil</node>
+    <node x="876.0" y="1268.0">org.apache.rocketmq.common.queue.ConcurrentTreeMap</node>
+    <node x="850.0" y="1712.0">org.apache.rocketmq.common.message.MessageType</node>
+    <node x="1000.0" y="380.0">org.apache.rocketmq.common.protocol.header.filtersrv.RegisterFilterServerResponseHeader</node>
+    <node x="354.0" y="1638.0">org.apache.rocketmq.common.stats.StatsItemSet</node>
+    <node x="109.25" y="79.0">org.apache.rocketmq.common.message.MessageExt</node>
+    <node x="1585.0" y="528.0">org.apache.rocketmq.common.protocol.header.namesrv.RegisterOrderTopicRequestHeader</node>
+    <node x="564.0" y="824.0">org.apache.rocketmq.common.protocol.header.namesrv.RegisterBrokerRequestHeader</node>
+    <node x="0.0" y="1860.0">org.apache.rocketmq.common.protocol.body.CMResult</node>
+    <node x="1020.0" y="1712.0">org.apache.rocketmq.common.utils.IOTinyUtils</node>
+    <node x="531.0" y="1638.0">org.apache.rocketmq.common.BrokerConfig</node>
+    <node x="713.0" y="1194.0">org.apache.rocketmq.common.consistenthash.ConsistentHashRouter</node>
+    <node x="268.0" y="972.0">org.apache.rocketmq.common.protocol.header.GetMaxOffsetRequestHeader</node>
+    <node x="489.0" y="1786.0">org.apache.rocketmq.common.protocol.body.Connection</node>
+    <node x="0.0" y="380.0">org.apache.rocketmq.common.protocol.header.GetConsumerRunningInfoRequestHeader</node>
+    <node x="1174.0" y="1416.0">org.apache.rocketmq.common.sysflag.MessageSysFlag</node>
+    <node x="973.0" y="1860.0">org.apache.rocketmq.common.Pair</node>
+    <node x="0.0" y="1564.0">org.apache.rocketmq.common.protocol.heartbeat.HeartbeatData</node>
+    <node x="708.0" y="1638.0">org.apache.rocketmq.common.admin.ConsumeStats</node>
+    <node x="184.0" y="1564.0">org.apache.rocketmq.common.Configuration</node>
+    <node x="846.0" y="824.0">org.apache.rocketmq.common.protocol.header.EndTransactionRequestHeader</node>
+    <node x="1331.0" y="380.0">org.apache.rocketmq.common.protocol.header.UpdateConsumerOffsetResponseHeader</node>
+    <node x="711.0" y="232.0">org.apache.rocketmq.common.protocol.header.NotifyConsumerIdsChangedRequestHeader</node>
+    <node x="440.0" y="1860.0">org.apache.rocketmq.common.protocol.body.KVTable</node>
+    <node x="1365.0" y="1416.0">org.apache.rocketmq.common.constant.DBMsgConstants</node>
+    <node x="1487.0" y="676.0">org.apache.rocketmq.common.protocol.header.CloneGroupOffsetRequestHeader</node>
+    <node x="885.0" y="1638.0">org.apache.rocketmq.common.protocol.heartbeat.MessageModel</node>
+    <node x="1240.25" y="0.0">org.apache.rocketmq.common.protocol.header.filtersrv.RegisterMessageFilterClassRequestHeader</node>
+    <node x="0.0" y="898.0">org.apache.rocketmq.common.protocol.header.GetMaxOffsetResponseHeader</node>
+    <node x="1063.0" y="232.0">org.apache.rocketmq.common.protocol.header.DeleteSubscriptionGroupRequestHeader</node>
+    <node x="582.0" y="1860.0">org.apache.rocketmq.common.MixAll</node>
+    <node x="958.0" y="528.0">org.apache.rocketmq.common.protocol.header.ConsumerSendMsgBackRequestHeader</node>
+    <node x="657.0" y="1268.0">org.apache.rocketmq.common.protocol.body.ProducerConnection</node>
+    <node x="1408.0" y="232.0">org.apache.rocketmq.common.protocol.header.GetConsumerListByGroupResponseHeader</node>
+    <node x="0.0" y="750.0">org.apache.rocketmq.common.protocol.header.GetConsumeStatsInBrokerHeader</node>
+    <node x="396.0" y="1416.0">org.apache.rocketmq.common.CountDownLatch2</node>
+    <node x="655.0" y="454.0">org.apache.rocketmq.common.protocol.header.QueryConsumerOffsetResponseHeader</node>
+    <node x="1190.0" y="1712.0">org.apache.rocketmq.common.protocol.heartbeat.ConsumeType</node>
+    <node x="615.0" y="1342.0">org.apache.rocketmq.common.message.MessageQueueForC</node>
+    <node x="1556.0" y="1416.0">org.apache.rocketmq.common.annotation.ImportantField</node>
+    <node x="1751.0" y="1786.0">org.apache.rocketmq.common.MQVersion</node>
+    <node x="0.0" y="1120.0">org.apache.rocketmq.common.protocol.body.SubscriptionGroupWrapper</node>
+    <node x="1747.0" y="1416.0">org.apache.rocketmq.common.protocol.route.TopicRouteData</node>
+    <node x="881.0" y="750.0">org.apache.rocketmq.common.protocol.header.GetConsumeStatsRequestHeader</node>
+    <node x="0.0" y="1194.0">org.apache.rocketmq.common.protocol.body.GetConsumerStatusBody</node>
+    <node x="979.0" y="454.0">org.apache.rocketmq.common.protocol.header.filtersrv.RegisterFilterServerRequestHeader</node>
+    <node x="1170.0" y="750.0">org.apache.rocketmq.common.protocol.header.namesrv.RegisterBrokerResponseHeader</node>
+    <node x="1303.0" y="454.0">org.apache.rocketmq.common.protocol.header.QueryConsumeTimeSpanRequestHeader</node>
+    <node x="1360.0" y="1712.0">org.apache.rocketmq.common.sysflag.PullSysFlag</node>
+    <node x="1088.0" y="1268.0">org.apache.rocketmq.common.ThreadFactoryImpl</node>
+    <node x="536.0" y="972.0">org.apache.rocketmq.common.protocol.body.QueryCorrectionOffsetBody</node>
+    <node x="240.0" y="1194.0">org.apache.rocketmq.common.protocol.body.LockBatchResponseBody</node>
+    <node x="296.0" y="750.0">org.apache.rocketmq.common.protocol.body.QueryConsumeQueueResponseBody</node>
+    <node x="0.0" y="454.0">org.apache.rocketmq.common.protocol.header.namesrv.WipeWritePermOfBrokerRequestHeader</node>
+    <node x="1631.0" y="1194.0">org.apache.rocketmq.common.protocol.body.ConsumerRunningInfo</node>
+    <node x="804.0" y="972.0">org.apache.rocketmq.common.protocol.header.SearchOffsetRequestHeader</node>
+    <node x="594.0" y="1416.0">org.apache.rocketmq.common.protocol.body.BrokerStatsData</node>
+    <node x="1072.0" y="972.0">org.apache.rocketmq.common.protocol.header.namesrv.GetKVConfigResponseHeader</node>
+    <node x="368.0" y="1564.0">org.apache.rocketmq.common.admin.RollbackStats</node>
+    <node x="1459.0" y="750.0">org.apache.rocketmq.common.protocol.body.ConsumeMessageDirectlyResult</node>
+    <node x="1128.0" y="824.0">org.apache.rocketmq.common.protocol.header.QueryCorrectionOffsetHeader</node>
+    <node x="1530.0" y="1712.0">org.apache.rocketmq.common.utils.ThreadUtils</node>
+    <node x="1062.0" y="1638.0">org.apache.rocketmq.common.stats.CallSnapshot</node>
+    <node x="0.0" y="1490.0">org.apache.rocketmq.common.protocol.MQProtosHelper</node>
+    <node x="552.0" y="1564.0">org.apache.rocketmq.common.namesrv.TopAddressing</node>
+    <node x="714.75" y="0.0">org.apache.rocketmq.common.consistenthash.Node</node>
+    <node x="191.0" y="1490.0">org.apache.rocketmq.common.filter.ExpressionType</node>
+    <node x="690.25" y="79.0">org.apache.rocketmq.common.consistenthash.VirtualNode</node>
+    <node x="275.0" y="898.0">org.apache.rocketmq.common.protocol.header.SearchOffsetResponseHeader</node>
+    <node x="0.0" y="306.0">org.apache.rocketmq.common.protocol.header.GetEarliestMsgStoretimeRequestHeader</node>
+    <node x="550.0" y="898.0">org.apache.rocketmq.common.protocol.header.GetMinOffsetResponseHeader</node>
+    <node x="1239.0" y="1638.0">org.apache.rocketmq.common.sysflag.TopicSysFlag</node>
+    <node x="1627.0" y="454.0">org.apache.rocketmq.common.protocol.header.namesrv.GetKVListByNamespaceRequestHeader</node>
+    <node x="0.0" y="528.0">org.apache.rocketmq.common.protocol.header.UpdateConsumerOffsetRequestHeader</node>
+    <node x="736.0" y="1564.0">org.apache.rocketmq.common.namesrv.NamesrvConfig</node>
+    <node x="946.0" y="1194.0">org.apache.rocketmq.common.namesrv.RegisterBrokerResult</node>
+    <node x="652.0" y="1786.0">org.apache.rocketmq.common.queue.RoundQueue</node>
+    <node x="1340.0" y="972.0">org.apache.rocketmq.common.protocol.header.namesrv.GetRouteInfoRequestHeader</node>
+    <node x="1416.0" y="1638.0">org.apache.rocketmq.common.ServiceState</node>
+    <node x="0.0" y="602.0">org.apache.rocketmq.common.protocol.header.GetAllTopicConfigResponseHeader</node>
+    <node x="717.0" y="1860.0">org.apache.rocketmq.common.help.FAQUrl</node>
+    <node x="149.0" y="1860.0">org.apache.rocketmq.common.constant.PermName</node>
+    <node x="261.0" y="1120.0">org.apache.rocketmq.common.protocol.header.DeleteTopicRequestHeader</node>
+    <node x="522.0" y="1120.0">org.apache.rocketmq.common.subscription.SubscriptionGroupConfig</node>
+    <node x="247.25" y="79.0">org.apache.rocketmq.common.message.MessageBatch</node>
+    <node x="1700.0" y="1712.0">org.apache.rocketmq.common.DataVersion</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.rocketmq.common.message.MessageClientExt" target="org.apache.rocketmq.common.message.MessageExt">
+      <point x="0.0" y="-14.5" />
+      <point x="80.0" y="133.0" />
+      <point x="138.75" y="133.0" />
+      <point x="-29.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.common.consistenthash.VirtualNode" target="org.apache.rocketmq.common.consistenthash.Node">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.common.filter.impl.Operand" target="org.apache.rocketmq.common.filter.impl.Op">
+      <point x="0.0" y="-14.5" />
+      <point x="596.75" y="54.0" />
+      <point x="552.0" y="54.0" />
+      <point x="15.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.common.message.MessageExtBatch" target="org.apache.rocketmq.common.message.MessageExt">
+      <point x="0.0" y="-14.5" />
+      <point x="256.5" y="133.0" />
+      <point x="197.75" y="133.0" />
+      <point x="29.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.common.message.MessageBatch" target="org.apache.rocketmq.common.message.Message">
+      <point x="0.0" y="-14.5" />
+      <point x="313.25" y="54.0" />
+      <point x="265.0" y="54.0" />
+      <point x="24.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.common.filter.impl.Operator" target="org.apache.rocketmq.common.filter.impl.Op">
+      <point x="0.0" y="-14.5" />
+      <point x="476.25" y="54.0" />
+      <point x="521.0" y="54.0" />
+      <point x="-15.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.common.message.MessageExt" target="org.apache.rocketmq.common.message.Message">
+      <point x="0.0" y="-14.5" />
+      <point x="168.25" y="54.0" />
+      <point x="216.5" y="54.0" />
+      <point x="-24.25" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="833.0" y="273.5" />
+  <SelectedNodes>
+    <node>org.apache.rocketmq.common.protocol.header.SendMessageRequestHeaderV2</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

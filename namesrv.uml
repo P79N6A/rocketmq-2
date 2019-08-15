@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.namesrv.NamesrvController</OriginalElement>
+  <nodes>
+    <node x="0.0" y="153.0">org.apache.rocketmq.namesrv.routeinfo.BrokerHousekeepingService</node>
+    <node x="191.0" y="375.0">org.apache.rocketmq.namesrv.routeinfo.BrokerLiveInfo</node>
+    <node x="14.0" y="0.0">org.apache.rocketmq.namesrv.processor.DefaultRequestProcessor</node>
+    <node x="0.0" y="79.0">org.apache.rocketmq.namesrv.processor.ClusterTestRequestProcessor</node>
+    <node x="0.0" y="375.0">org.apache.rocketmq.namesrv.NamesrvStartup</node>
+    <node x="261.0" y="227.0">org.apache.rocketmq.namesrv.NamesrvController</node>
+    <node x="0.0" y="301.0">org.apache.rocketmq.namesrv.routeinfo.RouteInfoManager</node>
+    <node x="205.0" y="301.0">org.apache.rocketmq.namesrv.kvconfig.KVConfigManager</node>
+    <node x="0.0" y="227.0">org.apache.rocketmq.namesrv.kvconfig.KVConfigSerializeWrapper</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.rocketmq.namesrv.processor.ClusterTestRequestProcessor" target="org.apache.rocketmq.namesrv.processor.DefaultRequestProcessor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="784.5" y="613.5" />
+  <SelectedNodes>
+    <node>org.apache.rocketmq.namesrv.NamesrvController</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

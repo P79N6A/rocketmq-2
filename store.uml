@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.store.AllocateMappedFileService</OriginalElement>
+  <nodes>
+    <node x="680.0" y="824.0">org.apache.rocketmq.store.StoreUtil</node>
+    <node x="472.5" y="0.0">org.apache.rocketmq.store.MessageFilter</node>
+    <node x="0.0" y="380.0">org.apache.rocketmq.store.MessageExtBrokerInner</node>
+    <node x="229.0" y="79.0">org.apache.rocketmq.store.PutMessageSpinLock</node>
+    <node x="515.0" y="306.0">org.apache.rocketmq.store.schedule.ScheduleMessageService</node>
+    <node x="452.0" y="454.0">org.apache.rocketmq.store.stats.BrokerStatsManager</node>
+    <node x="0.0" y="898.0">org.apache.rocketmq.store.index.IndexFile</node>
+    <node x="382.0" y="750.0">org.apache.rocketmq.store.ha.HAConnection</node>
+    <node x="156.0" y="898.0">org.apache.rocketmq.store.ha.HAService</node>
+    <node x="0.0" y="602.0">org.apache.rocketmq.store.GetMessageStatus</node>
+    <node x="671.0" y="454.0">org.apache.rocketmq.store.TransientStorePool</node>
+    <node x="205.0" y="676.0">org.apache.rocketmq.store.MappedFileQueue</node>
+    <node x="0.0" y="79.0">org.apache.rocketmq.store.PutMessageReentrantLock</node>
+    <node x="205.0" y="602.0">org.apache.rocketmq.store.PutMessageResult</node>
+    <node x="198.0" y="750.0">org.apache.rocketmq.store.config.FlushDiskType</node>
+    <node x="448.0" y="79.0">org.apache.rocketmq.store.DefaultMessageFilter</node>
+    <node x="137.25" y="0.0">org.apache.rocketmq.store.PutMessageLock</node>
+    <node x="720.0" y="380.0">org.apache.rocketmq.store.AppendMessageStatus</node>
+    <node x="559.0" y="750.0">org.apache.rocketmq.store.RunningFlags</node>
+    <node x="403.0" y="676.0">org.apache.rocketmq.store.DispatchRequest</node>
+    <node x="24.5" y="232.0">org.apache.rocketmq.store.MappedFile</node>
+    <node x="410.0" y="602.0">org.apache.rocketmq.store.PutMessageStatus</node>
+    <node x="601.0" y="676.0">org.apache.rocketmq.store.StoreCheckpoint</node>
+    <node x="177.0" y="824.0">org.apache.rocketmq.store.index.IndexHeader</node>
+    <node x="0.0" y="454.0">org.apache.rocketmq.store.CommitLogDispatcher</node>
+    <node x="212.0" y="153.0">org.apache.rocketmq.store.schedule.DelayOffsetSerializeWrapper</node>
+    <node x="347.0" y="824.0">org.apache.rocketmq.store.stats.BrokerStats</node>
+    <node x="736.0" y="750.0">org.apache.rocketmq.store.index.IndexService</node>
+    <node x="681.0" y="79.0">org.apache.rocketmq.store.DefaultMessageStore</node>
+    <node x="494.0" y="153.0">org.apache.rocketmq.store.AllocateMappedFileService</node>
+    <node x="468.0" y="898.0">org.apache.rocketmq.store.util.LibC</node>
+    <node x="705.5" y="0.0">org.apache.rocketmq.store.MessageStore</node>
+    <node x="0.0" y="153.0">org.apache.rocketmq.store.ReferenceResource</node>
+    <node x="438.0" y="528.0">org.apache.rocketmq.store.index.QueryOffsetResult</node>
+    <node x="0.0" y="528.0">org.apache.rocketmq.store.config.MessageStoreConfig</node>
+    <node x="261.0" y="306.0">org.apache.rocketmq.store.MessageArrivingListener</node>
+    <node x="615.0" y="602.0">org.apache.rocketmq.store.GetMessageResult</node>
+    <node x="0.0" y="750.0">org.apache.rocketmq.store.ConsumeQueueExt</node>
+    <node x="0.0" y="824.0">org.apache.rocketmq.store.ConsumeQueue</node>
+    <node x="517.0" y="824.0">org.apache.rocketmq.store.config.BrokerRole</node>
+    <node x="650.0" y="528.0">org.apache.rocketmq.store.StoreStatsService</node>
+    <node x="0.0" y="306.0">org.apache.rocketmq.store.SelectMappedBufferResult</node>
+    <node x="240.0" y="380.0">org.apache.rocketmq.store.AppendMessageCallback</node>
+    <node x="0.0" y="676.0">org.apache.rocketmq.store.ha.WaitNotifyObject</node>
+    <node x="312.0" y="898.0">org.apache.rocketmq.store.CommitLog</node>
+    <node x="480.0" y="380.0">org.apache.rocketmq.store.config.StorePathConfigHelper</node>
+    <node x="226.0" y="454.0">org.apache.rocketmq.store.AppendMessageResult</node>
+    <node x="219.0" y="528.0">org.apache.rocketmq.store.QueryMessageResult</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.rocketmq.store.MappedFile" target="org.apache.rocketmq.store.ReferenceResource">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.store.PutMessageSpinLock" target="org.apache.rocketmq.store.PutMessageLock">
+      <point x="0.0" y="-14.5" />
+      <point x="316.0" y="54.0" />
+      <point x="246.75" y="54.0" />
+      <point x="36.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.store.PutMessageReentrantLock" target="org.apache.rocketmq.store.PutMessageLock">
+      <point x="0.0" y="-14.5" />
+      <point x="104.5" y="54.0" />
+      <point x="173.75" y="54.0" />
+      <point x="-36.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.store.DefaultMessageFilter" target="org.apache.rocketmq.store.MessageFilter">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.store.DefaultMessageStore" target="org.apache.rocketmq.store.MessageStore">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9912354804646251" x="679.3026526046662" y="624.3692340470864" />
+  <SelectedNodes>
+    <node>org.apache.rocketmq.store.index.IndexService</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

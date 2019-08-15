@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.broker.BrokerController</OriginalElement>
+  <nodes>
+    <node x="0.0" y="602.0">org.apache.rocketmq.broker.processor.QueryMessageProcessor</node>
+    <node x="783.0" y="454.0">org.apache.rocketmq.broker.processor.ConsumerManageProcessor</node>
+    <node x="0.0" y="454.0">org.apache.rocketmq.broker.subscription.SubscriptionGroupManager</node>
+    <node x="697.0" y="79.0">org.apache.rocketmq.broker.filter.ExpressionForRetryMessageFilter</node>
+    <node x="240.0" y="602.0">org.apache.rocketmq.broker.mqtrace.ConsumeMessageContext</node>
+    <node x="261.0" y="454.0">org.apache.rocketmq.broker.filter.MessageEvaluationContext</node>
+    <node x="354.0" y="1120.0">org.apache.rocketmq.broker.transaction.queue.GetResult</node>
+    <node x="219.0" y="898.0">org.apache.rocketmq.broker.latency.BrokerFastFailure</node>
+    <node x="0.0" y="824.0">org.apache.rocketmq.broker.pagecache.OneMessageTransfer</node>
+    <node x="785.0" y="1046.0">org.apache.rocketmq.broker.client.net.Broker2Client</node>
+    <node x="0.0" y="306.0">org.apache.rocketmq.broker.latency.BrokerFixedThreadPoolExecutor</node>
+    <node x="480.0" y="676.0">org.apache.rocketmq.broker.processor.PullMessageProcessor</node>
+    <node x="431.0" y="898.0">org.apache.rocketmq.broker.client.ConsumerGroupInfo</node>
+    <node x="410.0" y="972.0">org.apache.rocketmq.broker.longpolling.ManyPullRequest</node>
+    <node x="296.0" y="306.0">org.apache.rocketmq.broker.longpolling.NotifyMessageArrivingListener</node>
+    <node x="888.0" y="306.0">org.apache.rocketmq.broker.transaction.jdbc.JDBCTransactionStoreConfig</node>
+    <node x="608.0" y="972.0">org.apache.rocketmq.broker.mqtrace.SendMessageHook</node>
+    <node x="806.0" y="972.0">org.apache.rocketmq.broker.client.ProducerManager</node>
+    <node x="713.0" y="676.0">org.apache.rocketmq.broker.processor.AdminBrokerProcessor</node>
+    <node x="855.0" y="898.0">org.apache.rocketmq.broker.slave.SlaveSynchronize</node>
+    <node x="480.0" y="602.0">org.apache.rocketmq.broker.util.PositiveAtomicCounter</node>
+    <node x="522.0" y="454.0">org.apache.rocketmq.broker.transaction.queue.TransactionalMessageUtil</node>
+    <node x="594.0" y="1046.0">org.apache.rocketmq.broker.out.BrokerOuterAPI</node>
+    <node x="310.0" y="153.0">org.apache.rocketmq.broker.processor.AbstractSendMessageProcessor</node>
+    <node x="550.0" y="380.0">org.apache.rocketmq.broker.client.ClientHousekeepingService</node>
+    <node x="14.0" y="153.0">org.apache.rocketmq.broker.transaction.TransactionalMessageService</node>
+    <node x="720.0" y="602.0">org.apache.rocketmq.broker.offset.ConsumerOffsetManager</node>
+    <node x="946.0" y="676.0">org.apache.rocketmq.broker.client.rebalance.RebalanceLockManager</node>
+    <node x="466.0" y="750.0">org.apache.rocketmq.broker.filtersrv.FilterServerManager</node>
+    <node x="219.0" y="824.0">org.apache.rocketmq.broker.mqtrace.SendMessageContext</node>
+    <node x="0.0" y="676.0">org.apache.rocketmq.broker.filter.ConsumerFilterManager</node>
+    <node x="0.0" y="1046.0">org.apache.rocketmq.broker.client.ConsumerManager</node>
+    <node x="438.0" y="824.0">org.apache.rocketmq.broker.filter.ConsumerFilterData</node>
+    <node x="592.0" y="306.0">org.apache.rocketmq.broker.filter.CommitLogDispatcherCalcBitMap</node>
+    <node x="0.0" y="0.0">org.apache.rocketmq.broker.transaction.AbstractTransactionalMessageCheckListener</node>
+    <node x="184.0" y="1120.0">org.apache.rocketmq.broker.longpolling.PullRequest</node>
+    <node x="0.0" y="528.0">org.apache.rocketmq.broker.processor.EndTransactionProcessor</node>
+    <node x="692.0" y="750.0">org.apache.rocketmq.broker.plugin.MessageStoreFactory</node>
+    <node x="918.0" y="750.0">org.apache.rocketmq.broker.pagecache.ManyMessageTransfer</node>
+    <node x="0.0" y="972.0">org.apache.rocketmq.broker.filtersrv.FilterServerUtil</node>
+    <node x="404.5" y="0.0">org.apache.rocketmq.broker.client.ConsumerIdsChangeListener</node>
+    <node x="0.0" y="232.0">org.apache.rocketmq.broker.transaction.queue.TransactionalMessageServiceImpl</node>
+    <node x="657.0" y="824.0">org.apache.rocketmq.broker.client.ConsumerGroupEvent</node>
+    <node x="205.0" y="972.0">org.apache.rocketmq.broker.BrokerController</node>
+    <node x="380.0" y="79.0">org.apache.rocketmq.broker.client.DefaultConsumerIdsChangeListener</node>
+    <node x="508.0" y="528.0">org.apache.rocketmq.broker.BrokerPathConfigHelper</node>
+    <node x="0.0" y="380.0">org.apache.rocketmq.broker.plugin.AbstractPluginMessageStore</node>
+    <node x="240.0" y="676.0">org.apache.rocketmq.broker.processor.ClientManageProcessor</node>
+    <node x="275.0" y="380.0">org.apache.rocketmq.broker.transaction.queue.TransactionalMessageBridge</node>
+    <node x="3.5" y="79.0">org.apache.rocketmq.broker.transaction.queue.DefaultTransactionalMessageCheckListener</node>
+    <node x="338.0" y="232.0">org.apache.rocketmq.broker.processor.SendMessageProcessor</node>
+    <node x="818.0" y="380.0">org.apache.rocketmq.broker.plugin.MessageStorePluginContext</node>
+    <node x="969.0" y="1046.0">org.apache.rocketmq.broker.BrokerStartup</node>
+    <node x="0.0" y="1120.0">org.apache.rocketmq.broker.latency.FutureTaskExt</node>
+    <node x="755.0" y="528.0">org.apache.rocketmq.broker.longpolling.PullRequestHoldService</node>
+    <node x="0.0" y="750.0">org.apache.rocketmq.broker.pagecache.QueryMessageTransfer</node>
+    <node x="254.0" y="528.0">org.apache.rocketmq.broker.processor.ForwardRequestProcessor</node>
+    <node x="725.0" y="0.0">org.apache.rocketmq.broker.filter.ExpressionMessageFilter</node>
+    <node x="198.0" y="1046.0">org.apache.rocketmq.broker.util.ServiceProvider</node>
+    <node x="876.0" y="824.0">org.apache.rocketmq.broker.topic.TopicConfigManager</node>
+    <node x="0.0" y="898.0">org.apache.rocketmq.broker.mqtrace.ConsumeMessageHook</node>
+    <node x="396.0" y="1046.0">org.apache.rocketmq.broker.transaction.OperationResult</node>
+    <node x="599.0" y="153.0">org.apache.rocketmq.broker.transaction.TransactionalMessageCheckService</node>
+    <node x="233.0" y="750.0">org.apache.rocketmq.broker.transaction.jdbc.JDBCTransactionStore</node>
+    <node x="643.0" y="898.0">org.apache.rocketmq.broker.client.ClientChannelInfo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.rocketmq.broker.transaction.queue.TransactionalMessageServiceImpl" target="org.apache.rocketmq.broker.transaction.TransactionalMessageService">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.broker.processor.SendMessageProcessor" target="org.apache.rocketmq.broker.processor.AbstractSendMessageProcessor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.broker.filter.ExpressionForRetryMessageFilter" target="org.apache.rocketmq.broker.filter.ExpressionMessageFilter">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.broker.client.DefaultConsumerIdsChangeListener" target="org.apache.rocketmq.broker.client.ConsumerIdsChangeListener">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.broker.transaction.queue.DefaultTransactionalMessageCheckListener" target="org.apache.rocketmq.broker.transaction.AbstractTransactionalMessageCheckListener">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="530.0" y="950.0" />
+  <SelectedNodes>
+    <node>org.apache.rocketmq.broker.mqtrace.SendMessageHook</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.rocketmq.remoting.ChannelEventListener</OriginalElement>
+  <nodes>
+    <node x="494.0" y="232.0">org.apache.rocketmq.remoting.ChannelEventListener</node>
+    <node x="354.0" y="676.0">org.apache.rocketmq.remoting.netty.NettyLogger</node>
+    <node x="177.0" y="676.0">org.apache.rocketmq.remoting.protocol.LanguageCode</node>
+    <node x="0.0" y="750.0">org.apache.rocketmq.remoting.annotation.CFNullable</node>
+    <node x="638.0" y="750.0">org.apache.rocketmq.remoting.RPCHook</node>
+    <node x="438.0" y="380.0">org.apache.rocketmq.remoting.netty.NettyServerConfig</node>
+    <node x="545.0" y="602.0">org.apache.rocketmq.remoting.netty.NettyEncoder</node>
+    <node x="0.0" y="454.0">org.apache.rocketmq.remoting.netty.NettySystemConfig</node>
+    <node x="166.0" y="79.0">org.apache.rocketmq.remoting.netty.NettyRemotingAbstract</node>
+    <node x="368.0" y="602.0">org.apache.rocketmq.remoting.common.RemotingUtil</node>
+    <node x="212.0" y="454.0">org.apache.rocketmq.remoting.netty.NettyClientConfig</node>
+    <node x="53.375" y="158.0">org.apache.rocketmq.remoting.netty.NettyRemotingServer</node>
+    <node x="424.0" y="454.0">org.apache.rocketmq.remoting.netty.TlsSystemConfig</node>
+    <node x="382.0" y="528.0">org.apache.rocketmq.remoting.netty.NettyEventType</node>
+    <node x="191.0" y="528.0">org.apache.rocketmq.remoting.common.RemotingHelper</node>
+    <node x="0.0" y="528.0">org.apache.rocketmq.remoting.InvokeCallback</node>
+    <node x="622.0" y="454.0">org.apache.rocketmq.remoting.protocol.RemotingCommand</node>
+    <node x="163.0" y="750.0">org.apache.rocketmq.remoting.netty.NettyEvent</node>
+    <node x="0.0" y="380.0">org.apache.rocketmq.remoting.protocol.RemotingCommandType</node>
+    <node x="0.0" y="676.0">org.apache.rocketmq.remoting.netty.NettyDecoder</node>
+    <node x="573.0" y="528.0">org.apache.rocketmq.remoting.netty.ResponseFuture</node>
+    <node x="381.0" y="79.0">org.apache.rocketmq.remoting.RemotingClient</node>
+    <node x="187.0" y="0.0">org.apache.rocketmq.remoting.RemotingService</node>
+    <node x="254.0" y="232.0">org.apache.rocketmq.remoting.netty.NettyRequestProcessor</node>
+    <node x="326.0" y="750.0">org.apache.rocketmq.remoting.annotation.CFNotNull</node>
+    <node x="482.0" y="750.0">org.apache.rocketmq.remoting.netty.TlsHelper</node>
+    <node x="184.0" y="602.0">org.apache.rocketmq.remoting.protocol.SerializeType</node>
+    <node x="226.0" y="380.0">org.apache.rocketmq.remoting.netty.FileRegionEncoder</node>
+    <node x="0.0" y="306.0">org.apache.rocketmq.remoting.protocol.RemotingSerializable</node>
+    <node x="0.0" y="602.0">org.apache.rocketmq.remoting.common.ServiceThread</node>
+    <node x="524.0" y="676.0">org.apache.rocketmq.remoting.netty.RequestTask</node>
+    <node x="292.625" y="158.0">org.apache.rocketmq.remoting.netty.NettyRemotingClient</node>
+    <node x="142.0" y="824.0">org.apache.rocketmq.remoting.common.Pair</node>
+    <node x="0.0" y="79.0">org.apache.rocketmq.remoting.RemotingServer</node>
+    <node x="572.0" y="0.0">org.apache.rocketmq.remoting.common.SemaphoreReleaseOnlyOnce</node>
+    <node x="0.0" y="824.0">org.apache.rocketmq.remoting.common.TlsMode</node>
+    <node x="466.0" y="306.0">org.apache.rocketmq.remoting.CommandCustomHeader</node>
+    <node x="233.0" y="306.0">org.apache.rocketmq.remoting.protocol.RocketMQSerializable</node>
+    <node x="0.0" y="232.0">org.apache.rocketmq.remoting.protocol.RemotingSysResponseCode</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.rocketmq.remoting.netty.NettyRemotingServer" target="org.apache.rocketmq.remoting.netty.NettyRemotingAbstract">
+      <point x="45.25" y="-14.5" />
+      <point x="189.125" y="133.0" />
+      <point x="214.75" y="133.0" />
+      <point x="-48.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.remoting.netty.NettyRemotingClient" target="org.apache.rocketmq.remoting.netty.NettyRemotingAbstract">
+      <point x="-45.25" y="-14.5" />
+      <point x="337.875" y="133.0" />
+      <point x="312.25" y="133.0" />
+      <point x="48.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.remoting.RemotingServer" target="org.apache.rocketmq.remoting.RemotingService">
+      <point x="0.0" y="-14.5" />
+      <point x="73.0" y="54.0" />
+      <point x="225.25" y="54.0" />
+      <point x="-38.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.remoting.RemotingClient" target="org.apache.rocketmq.remoting.RemotingService">
+      <point x="0.0" y="-14.5" />
+      <point x="454.0" y="54.0" />
+      <point x="301.75" y="54.0" />
+      <point x="38.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.remoting.netty.NettyRemotingClient" target="org.apache.rocketmq.remoting.RemotingClient">
+      <point x="45.25" y="-14.5" />
+      <point x="428.375" y="133.0" />
+      <point x="454.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.rocketmq.remoting.netty.NettyRemotingServer" target="org.apache.rocketmq.remoting.RemotingServer">
+      <point x="-45.25" y="-14.5" />
+      <point x="98.625" y="133.0" />
+      <point x="73.0" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="320.0" y="355.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
